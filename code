@@ -1,6 +1,17 @@
 import random
 
-random_integer = random.randint(1,100)
-print(random_integer)
+#INTEGER
+random_int = random.randint(1,5)
+print(random_int)
 
+#FLOAT (Anything between 0.0 to 0.999999)
+random_float = random.random()
+print(random_float)
 
+#Random Float Between 1 to 5
+test = random_int + random_float
+print(test)
+
+#Way-2: Random Float Between 1 to 5
+test2 = random_float * 5
+print(test2)
